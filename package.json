@@ -1,0 +1,32 @@
+{
+  "name": "algoritms",
+  "version": "1.0.0",
+  "description": "Commom algoritms to study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santanagbr/algoritms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santanagbr/algoritms/issues"
+  },
+  "homepage": "https://github.com/santanagbr/algoritms#readme",
+  "dependencies": {
+    "jest": "^26.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "keywords": []
+}

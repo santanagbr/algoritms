@@ -1,0 +1,7 @@
+{
+  "extends": "standard",
+  "rules": {
+    "newline-before-return": 2,
+    "comma-dangle": 0
+  }
+}
