@@ -12,7 +12,7 @@ function isPrime (number) {
   return false
 }
 
-function sieve (maxNumber) {
+function checkSieve (maxNumber) {
   const primes = []
   for (let i = 0; i <= maxNumber; i++) {
     if (isPrime(i)) {
@@ -23,4 +23,6 @@ function sieve (maxNumber) {
   return primes
 }
 
-sieve(100)
+module.exports = {
+  checkSieve
+}
