@@ -1,4 +1,4 @@
-const { recursiveBinarySearch } = require('../../src/binarySearch')
+const { recursiveBinarySearch } = require('../../src/binarySearch');
 
 describe('binarySearch', () => {
   const vector = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
