@@ -1,4 +1,4 @@
-function isPalindrome(A) {
+function isPalindrome (A) {
   const AArray = ('' + A).split('')
   const finalPosition = AArray.length - 1
 
