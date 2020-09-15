@@ -1,21 +1,16 @@
-function isPalindrome (A) {
-  const reverseArray = ('' + A).split('')
-  for (let i = 0; i < reverseArray.length / 2; i++) {
-    const finalPosition = reverseArray.length - 1
-    const aux = reverseArray[finalPosition - i]
-    reverseArray[finalPosition - i] = reverseArray[i]
-    reverseArray[i] = aux
+function isPalindrome(A) {
+  const AArray = ('' + A).split('')
+  const finalPosition = AArray.length - 1
+
+  for (let i = 0; i < AArray.length / 2; i++) {
+    if (AArray[finalPosition - i] !== AArray[i]) {
+      return false
+    }
+
+    return true
   }
-
-  const formattedReverseArray = Number(reverseArray.join(''))
-
-  return formattedReverseArray === A
 }
 
-const number = 1221
-
-isPalindrome(number)
-
-// module.exports = {
-//   isPalindrome
-// }
+module.exports = {
+  isPalindrome
+}
